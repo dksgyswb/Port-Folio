@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    /* overflow: hidden; */
+    font-family: 'Jua', sans-serif;;
 }
 body{}
 /* body {
@@ -16,7 +15,6 @@ body{}
     justify-content: center;
     align-items: center;
 } */
-
 
 .wrap_body{opacity:0; background:#fff;}
 header{
@@ -183,20 +181,6 @@ span {
     
 }
 
-.p1 {
-    position: absolute;
-    margin-top: 500px;
-    /* top: 1800px; */
-    margin-left: 6%;
-}
-
-.p2 {
-    position: absolute;
-    top: 2250px;
-    left: 900px;
-    /* margin-top: 20%; */
-}
-
 .ppp {
     position: absolute;
     left:840px;
@@ -204,6 +188,77 @@ span {
     top: 2300px;
     align-content: center;
     color: #1a1a1a;
+}
+
+.p1 {
+    position: absolute;
+    top: 2250px;
+    left: 120px;
+    z-index: -1;
+}
+
+.p2 {
+    position: absolute;
+    top: 2250px;
+    left: 900px;
+    z-index: -1;
+    /* margin-top: 20%; */
+}
+
+.snip1535 {
+  background-color: #ffc600;
+  border: none;
+  color: #325f40ff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'BenchNine', Arial, sans-serif;
+  font-size: 1em;
+  font-size: 22px;
+  line-height: 1em;
+  margin: 15px 40px;
+  outline: none;
+  padding: 12px 40px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* top: 1200px; */
+}
+.snip1535:before,
+.snip1535:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+.snip1535:before {
+  border-color: #ffc600;
+  border-right-width: 2px;
+  border-top-width: 2px;
+  right: -5px;
+  top: -5px;
+}
+.snip1535:after {
+  border-bottom-width: 2px;
+  border-color: #ffc600;
+  border-left-width: 2px;
+  bottom: -5px;
+  left: -5px;
+}
+.snip1535:hover,
+.snip1535.hover {
+  background-color: #ffc600;
+}
+.snip1535:hover:before,
+.snip1535.hover:before,
+.snip1535:hover:after,
+.snip1535.hover:after {
+  height: 100%;
+  width: 100%;
 }
 
 .b {
@@ -280,7 +335,7 @@ span {
     display: inline-block;
     position: relative;
     background-color: gray;
-    color: #fff;
+    color: #000;
     text-align: center;
     top: 2500px;
     width: 100%;
@@ -297,6 +352,6 @@ span {
 }
 
 .un2 {
-    color: black;
+    color: #fff;
     line-height: 90px;
 }

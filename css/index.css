@@ -197,12 +197,24 @@ span {
     z-index: -1;
 }
 
+.p1-b {
+    position: absolute;
+    top: 3100px;
+    left: 290px;
+}
+
 .p2 {
     position: absolute;
     top: 2250px;
     left: 900px;
     z-index: -1;
     /* margin-top: 20%; */
+}
+
+.p2-b {
+    position: absolute;
+    top: 3100px;
+    left: 1050px;
 }
 
 .snip1535 {
@@ -259,11 +271,6 @@ span {
 .snip1535.hover:after {
   height: 100%;
   width: 100%;
-}
-
-.b {
-    background-color: red;
-    width: 100%;
 }
 
 .ba {

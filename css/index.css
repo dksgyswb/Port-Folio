@@ -78,7 +78,7 @@ span {
 }
 
 .ma {
-    background-color: rgba(146, 146, 146, 0.4);;
+    background-color: rgba(146, 146, 146, 0.4);
     /* background-color: rgba(50, 95, 64, 0.8); */
     margin-top: 19%;
     width: 100%;
@@ -364,7 +364,7 @@ span {
 .un {
     display: inline-block;
     position: relative;
-    background-color:rgb(155, 155, 155);
+    background-color:rgba(146, 146, 146, 0.4);
     color: #000;
     text-align: center;
     top: 2600px;
